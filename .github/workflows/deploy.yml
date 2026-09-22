@@ -17,5 +17,5 @@ jobs:
 
       - name: Verificar arquivos essenciais
         run: |
-          test -f index.html && echo "HTML encontrado!"
-          test -f style.css && echo "CSS encontrado!"
+          test -f dist/index-teste.html && echo "HTML encontrado!"
+          test -f src/DevOpsLandingPage.tsx && echo "Componente encontrado!"
